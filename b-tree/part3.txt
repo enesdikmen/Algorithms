@@ -1,0 +1,9 @@
+Enes Bedirhan Dikmen 150180016
+1.This tree would be like having 3 completely different trees but each node take space only once at 
+memory. So for each insertion we actually insert to 3 different trees. Since insertion operations 
+complexity is logn this insertion would cost 3logn which is also equal to logn in asymptotic notation.
+Answer: logn 
+
+2.To calculate standart deviation at a node we need to traverse every node of mini-b tree. Mini b-tree
+contains 2t-1 keys(log(t)time). So for instertion at every node we iterate we will do this.
+Answer: logn*logt
